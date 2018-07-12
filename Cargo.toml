@@ -1,0 +1,10 @@
+[package]
+name = "markdown_parser"
+version = "0.1.0"
+authors = ["tensor-programming <abeltensor@tensor-programming.com>"]
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+wasm-bindgen = "0.2.11"
